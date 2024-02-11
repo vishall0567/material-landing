@@ -49,7 +49,7 @@
 .hero-section .content-btn {
   position: relative;
   top: 480px;
-  margin-left: 50px;
+  margin-left: 5px;
   display: flex;
   gap: 15px;
   animation: header-anim 2s ease 0s 1 normal forwards;
@@ -749,6 +749,7 @@ span {
     left: 10px;
   }
   .hero-section .header-content h2 {
+    text-align: center;
     font-size: 35px;
   }
   .hero-section .header-content p {
