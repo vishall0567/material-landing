@@ -14,7 +14,6 @@
 .hero-section h5 {
   color: white;
   font-weight: bold;
-  left: 220px;
   top: 20px;
   position: absolute;
 }
@@ -46,22 +45,20 @@
 .hero-section .header-content p {
   color: white;
 }
-.hero-section .content-btn {
-  position: relative;
-  top: 480px;
+.hero-section .header-content .content-btn {
   margin-left: 5px;
   display: flex;
   gap: 15px;
   animation: header-anim 2s ease 0s 1 normal forwards;
 }
-.hero-section .content-btn button {
+.hero-section .header-content .content-btn button {
   height: 50px;
   width: 150px;
 }
-.hero-section .content-btn button:hover {
+.hero-section .header-content .content-btn button:hover {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.525);
 }
-.hero-section .content-btn .demo-btn {
+.hero-section .header-content .content-btn .demo-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,14 +67,20 @@
   border: none;
   border-radius: 2px;
 }
-.hero-section .content-btn .learn-more-btn {
+.hero-section .header-content .content-btn .learn-more-btn {
   font-weight: 400;
   color: white;
   background-color: transparent;
   border: 2px solid white;
   border-radius: 2px;
 }
+.hero-section .nav-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .hero-section nav {
+  width: 100%;
   height: 70px;
   z-index: 1;
   position: fixed;
@@ -614,9 +617,7 @@ span {
     left: 15px;
   }
   .hero-section .content-btn {
-    position: relative;
-    top: 300px;
-    margin-left: 40px;
+    margin-left: 20px;
     display: flex;
     gap: 15px;
   }
@@ -762,7 +763,7 @@ span {
     gap: 25px;
     align-items: center;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
   }
   .hero-section-card .card-section {
     display: flex;
@@ -770,6 +771,7 @@ span {
   }
   .hero-section-card .card-section .cards p {
     font-size: 15px;
+    text-wrap: balance;
   }
   .work-section .work-cards {
     display: flex;
@@ -804,6 +806,11 @@ span {
     gap: 25px;
     flex-direction: column;
     width: 100%;
+    align-items: center;
+    margin: 0;
+  }
+  #teams .member .pic {
+    margin: 0;
   }
   .content-section {
     margin-bottom: 25px;
