@@ -5,7 +5,13 @@
 }
 
 // -----Nav bar-----
-
+body::-webkit-scrollbar{
+background-color: lightblue;
+}
+body::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background:linear-gradient(rgb(197, 157, 82),rgb(211, 96, 115),rgb(218, 66, 218),rgb(72, 72, 228),);
+}
 .hero-section {
     background: linear-gradient(to right,
             rgba(97, 222, 238, 0.658),
@@ -1017,7 +1023,6 @@ span {
             }
         }
     }
-
     .pricing-section {
         .pricing-table {
             .pricing-card {
@@ -1031,7 +1036,6 @@ span {
             }
         }
     }
-
     #teams {
         .member {
             gap: 25px;
@@ -1043,9 +1047,7 @@ span {
                 margin: 0;
             }
         }
-
     }
-
     .content-section {
         margin-bottom: 25px;
     }
@@ -1063,13 +1065,11 @@ span {
             .content textarea {
                 width: 100%;
             }
-
             .form-btn {
                 margin: auto;
                 margin-top: 25px;
             }
         }
-
         .contact-heading p {
             font-size: 15px;
         }
