@@ -3,8 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-// -----Nav bar-----
+/*For Scroll bar*/
 body::-webkit-scrollbar{
 background-color: lightblue;
 }
@@ -12,6 +11,7 @@ body::-webkit-scrollbar-thumb{
     border-radius: 10px;
     background:linear-gradient(rgb(197, 157, 82),rgb(211, 96, 115),rgb(218, 66, 218),rgb(72, 72, 228),);
 }
+// -----Nav bar-----
 .hero-section {
     background: linear-gradient(to right,
             rgba(97, 222, 238, 0.658),
@@ -119,9 +119,9 @@ body::-webkit-scrollbar-thumb{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: #3949ab;
         padding: 1em;
         box-shadow: 0 0 10px 0 white;
+        transition: all 0.6s;
 
         a {
             align-items: center;

@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/*For Scroll bar*/
 body::-webkit-scrollbar {
   background-color: lightblue;
 }
@@ -99,9 +100,9 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #3949ab;
   padding: 1em;
   box-shadow: 0 0 10px 0 white;
+  transition: all 0.6s;
 }
 .hero-section nav a {
   align-items: center;
